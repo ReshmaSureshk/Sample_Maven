@@ -18,7 +18,7 @@ public class Launch_Browser {
 		String currenturl=driver.getCurrentUrl(); //to get current url
 		System.out.println(currenturl);
 		driver.get(currenturl); // for refreshing the page or url
-		
+		System.out.println("hello");
 	}
 
 }
